@@ -1,0 +1,88 @@
+/* --- Global Styles --- */
+body {
+    background-color: #f4f4f9; /* Wahi halka rang */
+    font-family: Arial, sans-serif;
+    color: #333333; /* Ab body text dark grey hai (Readability ke liye) */
+    line-height: 1.6; /* Lines ke beech mein thodi jagah (Padhne mein aasaan) */
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- Headings --- */
+h1, h2 {
+    color: #0056b3; /* Headings blue hi rahengi (Importance dikhane ke liye) */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* --- Content Sections --- */
+section {
+    max-width: 800px; /* Content zyada lamba na faile */
+    margin: 0 auto; /* Center karne ke liye */
+    background: white; /* Har section ko safed background */
+    padding: 20px;
+    border-radius: 8px; /* Chote ghunghrale corners */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Halka sa shadow */
+}
+
+/* --- Form Styles --- */
+form {
+    display: flex; /* Element ko ek line mein laane ke liye */
+    flex-direction: column; /* Line upar se niche ho */
+    gap: 10px; /* Element ke beech mein space */
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Hath ka nishaana dikhane ke liye */
+    width: 150px;
+    margin: 10px auto; /* Button ko form mein center karein */
+}
+
+button:hover {
+    background-color: #004494; /* Hover par dark blue */
+}
+
+/* --- Table Styles (Pehle jaisa hi, thoda clean) --- */
+table {
+    width: 100%; /* Section ke andar poora faile */
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* --- Mobile Responsive Design --- */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Mobile par side ki space kam kar di */
+    }
+    
+    h1 {
+        font-size: 24px; /* Heading thodi choti kar di */
+    }
+    
+    section {
+        padding: 15px; /* Box ke andar ki jagah kam kar di */
+    }
+}
