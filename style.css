@@ -86,3 +86,18 @@ th {
         padding: 15px; /* Box ke andar ki jagah kam kar di */
     }
 }
+
+#main-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 4px;
+}
+
+.highlight-target {
+    font-weight: bold;
+    color: #e65c00;
+    background-color: #ffe6d9;
+    padding: 5px;
+    border-radius: 4px;
+}
